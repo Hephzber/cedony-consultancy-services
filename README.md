@@ -1,14 +1,21 @@
-# Welcome to your Lovable project
+# Cedony Consultancy Services
+
+Create a website for Cedony Consultancy Services. Locations: Abuja, Nigeria and Berlin, Germany. 
+
+Below are details about Cedony Consultancy Services.
+Cedony Consultancy Services is a premier AI and business advisory firm dedicated to guiding organizations through end-to-end digital transformations, identifying high-value AI opportunities and equipping staff with practical AI skills to implement solutions that improve productivity, decision-making, workflow efficiency and revenue generation.
+
+Our approach combines strategic advisory, workforce enablement and practical AI application to help businesses translate AI adoption into measurable business results.
 
 This project was built with [Lovable](https://lovable.dev).
 
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/dec46090-4af8-587d-9fce-65b3bd5f5413).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +27,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
