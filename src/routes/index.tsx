@@ -31,7 +31,7 @@ function Index() {
     <div className="min-h-screen font-sans">
       <header className="absolute inset-x-0 top-0 z-10">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-6 text-primary-foreground">
-          <span className="font-display text-2xl font-semibold">Cedony<span className="text-accent">.</span></span>
+          <span className="font-display text-2xl font-semibold">Cedony<span className="text-accent">.</span>&nbsp;</span>
           <div className="hidden gap-8 text-sm md:flex">
             <a href="#approach" className="hover:text-accent">Approach</a>
             <a href="#outcomes" className="hover:text-accent">Outcomes</a>
@@ -47,7 +47,7 @@ function Index() {
           <p className="mb-6 text-xs uppercase tracking-[0.3em] text-accent">AI & Business Advisory · Abuja · Berlin</p>
           <h1 className="max-w-3xl text-5xl leading-[1.05] md:text-7xl">Turning AI adoption into measurable business results.</h1>
           <p className="mt-8 max-w-xl text-lg opacity-80">
-            Cedony guides organizations through end-to-end digital transformation — finding the AI opportunities that matter and preparing your people to deliver them.
+            Cedony guides organizations through end-to-end digital transformation and partners with forward-thinking organizations to implement AI automation and accelerate sustainable growth.
           </p>
           <a href="#contact" className="mt-10 inline-block rounded bg-accent px-7 py-3.5 text-sm font-semibold text-accent-foreground transition hover:opacity-90">
             Book a consultation
