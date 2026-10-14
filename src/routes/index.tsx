@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import hero from "@/assets/hero.jpg";
+import logo from "@/assets/cedony-logo.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -29,10 +30,12 @@ const offices = [
 function Index() {
   return (
     <div className="min-h-screen font-sans">
-      <header className="absolute inset-x-0 top-0 z-10">
-        <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-6 text-primary-foreground">
-          <span className="font-display text-2xl font-semibold">Cedony<span className="text-accent">.</span>&nbsp;</span>
-          <div className="hidden gap-8 text-sm md:flex">
+      <header className="fixed inset-x-0 top-0 z-50 border-b border-border/60 bg-background/95 shadow-sm backdrop-blur">
+        <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3">
+          <a href="#" className="flex items-center" aria-label="Cedony Consultancy Services — home">
+            <img src={logo} alt="Cedony Consultancy Services logo" height={44} width={132} className="h-11 w-auto" />
+          </a>
+          <div className="hidden gap-8 text-sm font-medium text-foreground md:flex">
             <a href="#approach" className="hover:text-accent">Approach</a>
             <a href="#outcomes" className="hover:text-accent">Outcomes</a>
             <a href="#contact" className="hover:text-accent">Contact</a>
